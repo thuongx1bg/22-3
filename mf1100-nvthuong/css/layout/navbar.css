@@ -1,0 +1,32 @@
+.m-navbar {
+  width: 225px;
+  height: calc(100vh - 48px) ;
+  float: left;
+  border-right: 1px solid #bebebe;
+  box-sizing: border-box;
+}
+.m-navbar .m-navbar-item {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  cursor: pointer;
+}
+.m-navbar .m-item-selected{
+    background-color: #019160 !important;
+    color: #fff;
+
+}
+.m-navbar .m-navbar-item:hover{
+    background-color: #e5e5e5;
+    color: #000;
+}
+.m-navbar .m-navbar-item .m-item-icon {
+  font-size: 20px;
+  margin-left: 16px;
+  padding-right: 10px;
+  line-height: 44px;
+}
+.m-navbar .m-navbar-item .m-item-content{
+    font-size: 13px;
+    line-height: 44px;
+}

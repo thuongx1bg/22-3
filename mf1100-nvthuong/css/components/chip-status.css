@@ -1,0 +1,123 @@
+.m-chip-status{
+    font-size: 11px;
+    height: 32px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    text-align: center;
+   /* padding-top: 10px; */
+   box-sizing: border-box;
+   line-height: 32px;
+   /* display: flex;
+   align-items: center;
+   justify-content: center; */
+    
+}
+
+
+.m-toast-box {
+    /* display: none; */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    /* background-color: blanchedalmond; */
+}
+
+.m-toast-box .m-toast-item {
+    display: flex;
+    /* height: 48px; */
+    border-radius: 4px;
+    padding: 16px 8px 16px 16px;
+    align-items: center;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    box-shadow: #939191 1px 2px 5px;
+}
+
+.m-toast-box .m-toast-item .m-toast-icon {
+    font-size: 24px;
+}
+
+.m-toast-box .m-toast-item .m-toast-text {
+    color: #000;
+    margin: 0 16px 0 8px;
+}
+
+.m-toast-box .m-toast-item .m-toast-close {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.m-toast-box .m-toast-item .m-toast-close:hover {
+    color: rgb(165, 0, 0);
+}
+
+
+/* Error */
+
+
+/* .m-toast-box .m-toast-item.m-toast-error {
+    background-color: #FFCECE;
+} */
+
+.m-toast-box .m-toast-item.m-toast-error .m-toast-icon {
+    color: red;
+}
+
+.m-toast-box .m-toast-item.m-toast-error .m-toast-close {
+    color: red;
+}
+
+.m-toast-box .m-toast-item.m-toast-error .m-toast-close:hover {
+    color: rgb(165, 0, 0);
+}
+
+
+/* Warning */
+
+
+/* .m-toast-box .m-toast-item.m-toast-warning {
+    background-color: #FFE7AF;
+} */
+
+.m-toast-box .m-toast-item.m-toast-warning .m-toast-icon {
+    color: #fdb100;
+}
+
+.m-toast-box .m-toast-item.m-toast-warning .m-toast-close {
+    color: #fdb100;
+}
+
+.m-toast-box .m-toast-item.m-toast-warning .m-toast-close:hover {
+    color: #8b6200;
+}
+
+
+/* success */
+
+.m-toast-box .m-toast-item.m-toast-success .m-toast-icon {
+    color: #00ffa6;
+}
+
+.m-toast-box .m-toast-item.m-toast-success .m-toast-close {
+    color: #00ffa6;
+}
+
+.m-toast-box .m-toast-item.m-toast-success .m-toast-close:hover {
+    color: #008a5a;
+}
+
+
+/* info */
+
+.m-toast-box .m-toast-item.m-toast-info .m-toast-icon {
+    color: #0077ff;
+}
+
+.m-toast-box .m-toast-item.m-toast-info .m-toast-close {
+    color: #0077ff;
+}
+
+.m-toast-box .m-toast-item.m-toast-info .m-toast-close:hover {
+    color: #003879;
+}

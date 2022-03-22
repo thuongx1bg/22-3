@@ -1,0 +1,9 @@
+.m-add-employee .m-add-employee-header{
+    background-color: aqua;
+   top: 20px;
+   bottom: 20px;
+   right: 225px;
+   left: 225px;
+
+    position: fixed;
+}

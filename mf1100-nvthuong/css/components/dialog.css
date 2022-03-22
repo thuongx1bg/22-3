@@ -1,0 +1,81 @@
+.m-diaglog-box {
+    display: block;
+   
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.158);
+  z-index: 10;
+}
+.m-diaglog {
+  position: absolute;
+  /* display: flex;
+  flex-direction: column; */
+  left: 50%;
+  top: 50%;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 400px;
+  /* height: 400px; */
+  transform: translate(-50%, -50%);
+}
+.m-diaglog-box .m-diaglog .m-dialog-close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  padding-top: 10px;
+  background-image: url(/assets/icon/x.svg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  border-style: none;
+  background-position: center center;
+  background-size: 16px 16px;
+  border-radius: 0 4px 0 4px;
+}
+.m-diaglog-box .m-diaglog .m-dialog-close:hover{
+    background-color: aliceblue;
+}
+.m-diaglog-box .m-diaglog .m-dialog-header {
+  font-size: 15px;
+  margin: 24px 28px 24px 24px;
+}
+.m-diaglog-box .m-diaglog .m-dialog-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 24px;
+  
+}
+.m-diaglog-box .m-diaglog .m-dialog-body .body-icon {
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+  border-radius: 50%;
+  margin-left: 24px;
+  margin-right: 10px;
+  display: flex;
+ 
+}
+.m-diaglog-box .m-diaglog .m-dialog-body .body-icon i {
+  margin: auto;
+}
+.m-diaglog-box .m-diaglog .m-dialog-body .body-content {
+  /* padding-left: 10px; */
+  padding-right: 24px;
+
+}
+.m-dialog-footer{
+    display: flex;
+    background-color: aliceblue;
+    border-radius:0 0 4px 4px;
+    align-items: center;
+    justify-content: end;
+    height: 60px;
+}
+.m-dialog-footer .m-btn2{
+    margin:10px 40px 10px 16px;
+}

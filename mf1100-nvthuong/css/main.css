@@ -1,0 +1,28 @@
+@import url(/css/components/button.css);
+@import url(/css/components/input.css);
+@import url(/css/components/table.css);
+@import url(/css/common/common.css);
+@import url(/css/components/paging.css);
+@import url(/css/components/dialog.css);
+@import url(/css/components/chip-status.css);
+@import url(/css/layout/content.css);
+@import url(/css/layout/header.css);
+@import url(/css/layout/navbar.css);
+@import url(/css/components/combobox.css);
+@import url(/css/page/add-employedd.css);
+
+
+body{
+    margin:0;
+    font-family: MISA GoogleSans;
+    font-size: 13px;
+}
+.m-row{
+    padding: 20px;
+}
+
+
+@font-face {
+    font-family: MISA GoogleSans;
+    src: url(/assets/font/GoogleSans-Regular.otf);
+}

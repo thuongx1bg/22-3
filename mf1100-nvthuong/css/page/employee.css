@@ -1,0 +1,86 @@
+.m-dialog-box {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.158);
+
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  
+}
+.m-dialog-add-user {
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 400px;
+  transform: translate(-50%, -50%);
+}
+.m-dialog-header-title {
+  padding: 24px 0 24px 24px;
+}
+.m-dialog-header-close {
+  /* background-color: bisque; */
+  position: absolute;
+  background-image: url(/assets/icon/x.svg);
+  height: 20px;
+  background-size: contain;
+  top: 0;
+  width: 20px;
+  background-repeat: no-repeat;
+  right: 0;
+  border-radius: 4px;
+}
+.m-dialog-header-close:hover{
+  background-color: #bebebe;
+}
+.m-dialog-body{
+  display: flex;
+  flex-direction: column;
+  
+  /* box-sizing: border-box; */
+  /* justify-content: space-between; */
+}
+.m-dialog-top{
+  display: flex;
+}
+.m-dialog-body-left{
+  padding: 0 0 16px 24px;
+  
+  
+}
+.m-dialog-body-left .m-dialog-input{
+  
+  padding-top:16px ;
+}
+.m-dialog-body-right{
+  
+
+  padding: 0 24px 16px 16px;
+}
+.m-dialog-body-right .m-dialog-input{
+  
+  padding-top:16px ;
+}
+.m-dialog-input .m-input{
+  width: 170px;
+
+}
+.m-dialog-body-bottom{
+  
+  padding: 0px 24px 16px 24px;
+  box-sizing: border-box;
+  
+
+}
+.m-dialog-body-bottom textarea{
+  width: 100%;
+  border-radius: 4px;
+}
+
+.m-dialog-footer{
+  background-color: #f1eded;
+}

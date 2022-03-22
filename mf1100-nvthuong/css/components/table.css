@@ -1,0 +1,25 @@
+.m-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  position: relative;
+}
+.m-table tr {
+  border-bottom: 1px solid #bbbbbb;
+  height: 48px;
+}
+
+.m-table td,th{
+    padding: 0 10px;
+
+}
+
+
+
+.m-table tbody td:first-child{
+    padding-left: 16px;
+}
+table.m-table tbody tr:hover{
+    cursor: pointer;
+    background-color: #bbbbbb;
+}

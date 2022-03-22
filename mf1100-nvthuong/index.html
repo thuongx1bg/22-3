@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
+    "
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+   
+  </head>
+  <body>
+    <div class="m-row">
+      <label for="">Button</label>
+      <div class="m-row-button">
+        <button class="m-btn">Nộp hồ sơ</button>
+      </div>
+    </div>
+
+    <div class="m-row">
+      <label for="">Button Add</label>
+      <div class="m-row-button">
+        <button class="m-btn m-btn-icon">Thêm mới lao động</button>
+      </div>
+    </div>
+
+    <div class="m-row">
+      <label for="">Input</label>
+      <div class="m-row-input">
+        <input
+          type="text"
+          class="m-input-search m-input"
+          placeholder="Tìm kiếm theo tên, số hồ sơ"
+        />
+      </div>
+    </div>
+
+    <div class="m-row">
+      <label for="">Input with Error</label>
+      <div class="m-row-input">
+        <div class="box-error" style="width: 210px">
+          <div class="m-error-box">
+            <div class="m-error-text">Mật khẩu không đúng đâu nha bé ơi</div>
+
+            <div class="m-box-arrow"></div>
+          </div>
+          <input
+            type="text"
+            class="m-input-error m-input"
+            placeholder="Tìm kiếm theo tên, số hồ sơ"
+          />
+        </div>
+      </div>
+    </div>
+   
+    <div class="m-row">
+      <label for="">table</label>
+      <div class="m-row-table">
+        <div class="m-grid">
+          <table class="m-table">
+            <thead>
+              <tr>
+                <th class="text-align-left">Stt</th>
+                <th class="text-align-left">Tên</th>
+                <th class="text-align-center">Ngày Sinh</th>
+                <th class="text-align-left">Địa chỉ</th>
+                <th class="text-align-right">Lương</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-align-left">1</td>
+                <td class="text-align-left">thuong</td>
+                <td class="text-align-center">1/1/1990</td>
+                <td class="text-align-left">
+                  cảnh thuyệ yên dũng bắc giang thôn nhất
+                </td>
+                <td class="text-align-right">900000</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>thuong</td>
+                <td>1/1/1990</td>
+                <td>cảnh thuyệ yên dũng bắc giang thôn nhất</td>
+                <td>900000</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>thuong</td>
+                <td>1/1/1990</td>
+                <td>cảnh thuyệ yên dũng bắc giang thôn nhất</td>
+                <td>900000</td>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>thuong</td>
+                <td>1/1/1990</td>
+                <td>cảnh thuyệ yên dũng bắc giang thôn nhất</td>
+                <td>900000</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="m-paging">
+          <div class="m-paging-left">Hiển thị 01-20/1223 lao động</div>
+          <div class="m-paging-center">
+            <button class="m-firstpage m-paging-selected"></buttton>
+            <button class="m-prev-page"></button>
+            <button class="m-paging-number">1</button>
+            <button class="m-paging-number">2</button>
+            <button class="m-paging-number">3</button>
+            <button class="m-pageing-number m-paging-selected">4</button>
+            <button class="m-next-page"></button>
+            <button class="m-lastpage"></button>
+          </div>
+          <div class="m-paging-right">right</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="m-row">
+      <label for="">Dialog</label>
+      <div class="">
+        <button id="myBtn" class="m-btn">dialog</button>
+      </div>
+      <div id="myBtn-box" class="m-diaglog-box">
+        <div class="m-diaglog">
+          <div class="m-dialog-close"></div>
+          <div class="m-dialog-header">Đóng form thông tin chung</div>
+          <div class="m-dialog-body">
+            <div class="body-icon">
+              <i class="far fa-angry"></i>
+            </div>
+            <div class="body-content">
+              Bạn có chắc muốn đóng <b> form nhập thủ tục 603 </b> hay không?
+            </div>
+          </div>
+          <div class="m-dialog-footer">
+            <div class="m-btn-1">
+              <button class="m-btn">Xóa</button>
+            </div>
+            <div class="m-btn2">
+              <button id="btn-close" class="m-btn">Hủy</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="m-row">
+      <label for="">Chip-status</label>
+      <div class="m-chip-status">Bị từ chối</div>
+    </div>
+
+    <div class="m-row">
+      <label for="">5. TOAST MESSENGER</label>
+      <div class="m-row">
+        <button id="btnShowToast" class="m-btn m-btn-icon m-btn-icon-add">
+          Hiển thị Toast Msg
+        </button>
+      </div>
+      <div class="m-toast-box">
+        <div class="m-toast-item m-toast-error">
+          <div class="m-toast-icon">
+            <i class="fas fa-exclamation-circle"></i>
+          </div>
+          <div class="m-toast-text">Nội dung đi kèm tiêu đề.</div>
+          <div class="m-toast-close"><i class="fas fa-times"></i></div>
+        </div>
+        <div class="m-toast-item m-toast-warning">
+          <div class="m-toast-icon">
+            <i class="fas fa-exclamation-circle"></i>
+          </div>
+          <div class="m-toast-text">Nội dung đi kèm tiêu đề.</div>
+          <div class="m-toast-close"><i class="fas fa-times"></i></div>
+        </div>
+        <div class="m-toast-item m-toast-success">
+          <div class="m-toast-icon"><i class="fas fa-check-circle"></i></div>
+          <div class="m-toast-text">Nội dung đi kèm tiêu đề.</div>
+          <div class="m-toast-close"><i class="fas fa-times"></i></div>
+        </div>
+        <div class="m-toast-item m-toast-info">
+          <div class="m-toast-icon"><i class="fas fa-info-circle"></i></div>
+          <div class="m-toast-text">Nội dung đi kèm tiêu đề.</div>
+          <div class="m-toast-close"><i class="fas fa-times"></i></div>
+        </div>
+      </div>
+    </div>
+    <div class="m-page-toolbar">
+      <div class="m-toolbar-left">
+          <input type="text" style="width: 200px" class="m-input m-input-icon m-icon-16 m-icon-search" placeholder="Tìm kiếm theo tên, số hồ sơ">
+          <select name="" id="">
+              <option value="">Tất cả phòng ban</option>
+              <option value="">Phòng đào tạo</option>
+          </select>
+          <select name="" id="">
+            <option value="">Tất cả vị trí</option>
+            <option value="">Giám đốc</option>
+            <option value="">Nhân viên</option>
+          </select>
+      </div>
+   
+   
+   
+   
+   
+
+    <script>
+      document.getElementById("myBtn").addEventListener("click", displayDate);
+      function displayDate() {
+        document.getElementById("myBtn-box").style.display = "block";
+      }
+      // document.getElementsById("btn-close").addEventListener("click", removeBox);
+      // function removeBox(){
+      //   document.getElementById("myBtn-box").style.display='none';
+
+      //     }
+    </script>
+  </body>
+</html>

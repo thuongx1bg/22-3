@@ -1,0 +1,75 @@
+.m-content {
+  /* float: left; */
+  /* height:calc(100vh - 48px) ; */
+  /* width: calc(100% - 225px); */
+  position: absolute;
+  top: 48px;
+  left: 225px;
+  right: 0;
+  bottom: 0;
+  padding: 24px;
+}
+.m-content-header {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.m-content-header .m-content-header-title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+}
+.m-content-toolbar {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.m-content-toolbar-left {
+  display: flex;
+}
+.m-content-toolbar-right {
+  height: 24px;
+  width: 24px;
+  background-image: url(/assets/icon/refresh.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.m-content-grid {
+  position: relative;
+  height: calc(100% - 80px);
+
+  padding-bottom: 56px;
+  box-sizing: border-box;
+  width: 100%;
+  box-sizing: border-box;
+  width: 100%;
+  padding-bottom: 56px;
+}
+.m-content-grid .m-grid-table {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+
+  position: relative;
+}
+
+.m-content-grid .m-table thead th {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.m-content-grid .m-paging {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  
+}
